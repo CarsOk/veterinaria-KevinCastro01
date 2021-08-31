@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#contenedor{
+	width: 650px;
+    height: 600px;
+	margin: auto;
+}
+header img{
+    width: 100%;
+}
+nav{
+	text-align: center;
+	background-color: #1c4a48;
+	border-radius: 0px 0px 10px 10px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+#principal{
+    height: 350px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#noticias{
+    width: 360px;
+    height: 330px;
+    float: left;
+}
+#noticias article{
+    background-color: #fbf5ba;
+    margin-bottom: 10px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0xp;
+}
+#primerarticulo{
+    border-radius: 10px 10px 0px 0px;
+}
+#segundoarticulo{
+    border-radius: 0px 0px 10px 10px;
+}
+article header{
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
+article p{
+    width: 250px;
+    height: 130px;
+    float: left;
+    border-left: 10px;
+}
+article img{
+    width: 100px;
+    float: right;
+}
+aside{
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #496e6d;
+    border-left: 10px;
+    height: 350px;
+    width: 280px;
+    text-align: center;
+    color: white;
+}
+aside header{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0b2826;
+    height: 30px;
+    border-top: 5px;
+}
+footer{
+	width: 550;
+	height: 70px;
+	background-color: #1c4a48;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+	color:white;
+    margin: 0px;
+}
